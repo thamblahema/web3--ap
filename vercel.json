@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/api/process",
+            "dest": "/api/process.js"
+        },
+        {
+            "src": "/",
+            "dest": "/home.html"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/dnsparkingcom/$1"
+        }
+    ]
+}

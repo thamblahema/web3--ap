@@ -1,0 +1,13 @@
+{
+    "name": "final-web3dapp",
+    "version": "1.0.0",
+    "dependencies": {
+        "nodemailer": "^6.9.1",
+        "dotenv": "^16.0.0",
+        "formidable": "^3.5.1",
+        "node-fetch": "^2.6.7"
+    },
+    "scripts": {
+        "start": "vercel dev"
+    }
+}
